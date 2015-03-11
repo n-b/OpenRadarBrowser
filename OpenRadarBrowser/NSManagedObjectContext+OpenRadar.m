@@ -32,11 +32,11 @@
                                         @"description" : @"text",
                                         @"classification" : @"classification",
                                         @"number" : @"number",
-                                        @"originated" : @"originated",
+                                        @"originated" : @"allYouCanEatDate:originated",
                                         @"product" : @"product",
                                         @"product_version" : @"productVersion",
                                         @"reproducible" : @"reproducible",
-                                        @"resolved" : @"resolved",
+                                        @"resolved" : @"allYouCanEatDate:resolved",
                                         @"status" : @"status",
                                         @"title" : @"title",
                                         @"user" : @"user"

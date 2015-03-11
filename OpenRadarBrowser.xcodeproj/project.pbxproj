@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		372354971AB0DA9200C827F2 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 372354961AB0DA9200C827F2 /* Radar.m */; };
 		372354A81AB0E01D00C827F2 /* libKVCMapping-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372354A31AB0E01400C827F2 /* libKVCMapping-ios.a */; };
+		372354AC1AB0E2EF00C827F2 /* AllYouCanEatDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 372354AB1AB0E2EF00C827F2 /* AllYouCanEatDateTransformer.m */; };
 		375E97D91AB0A17A001BAB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97D81AB0A17A001BAB5E /* main.m */; };
 		375E97DC1AB0A17A001BAB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DB1AB0A17A001BAB5E /* AppDelegate.m */; };
 		375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DD1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld */; };
@@ -48,6 +49,8 @@
 		372354951AB0DA9200C827F2 /* Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
 		372354961AB0DA9200C827F2 /* Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
 		3723549C1AB0E01400C827F2 /* KVCMapping.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KVCMapping.xcodeproj; path = kvcmapping/KVCMapping.xcodeproj; sourceTree = "<group>"; };
+		372354AA1AB0E2EF00C827F2 /* AllYouCanEatDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllYouCanEatDateTransformer.h; sourceTree = "<group>"; };
+		372354AB1AB0E2EF00C827F2 /* AllYouCanEatDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllYouCanEatDateTransformer.m; sourceTree = "<group>"; };
 		375E97D31AB0A17A001BAB5E /* OpenRadarBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenRadarBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375E97D71AB0A17A001BAB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		375E97D81AB0A17A001BAB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				372354961AB0DA9200C827F2 /* Radar.m */,
 				375E981A1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.h */,
 				375E981B1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.m */,
+				372354AA1AB0E2EF00C827F2 /* AllYouCanEatDateTransformer.h */,
+				372354AB1AB0E2EF00C827F2 /* AllYouCanEatDateTransformer.m */,
 				375E97E01AB0A17A001BAB5E /* MasterVC.h */,
 				375E97E11AB0A17A001BAB5E /* MasterVC.m */,
 				375E97E31AB0A17A001BAB5E /* DetailVC.h */,
@@ -238,6 +243,7 @@
 				375E981C1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.m in Sources */,
 				375E97E51AB0A17A001BAB5E /* DetailVC.m in Sources */,
 				375E97E21AB0A17A001BAB5E /* MasterVC.m in Sources */,
+				372354AC1AB0E2EF00C827F2 /* AllYouCanEatDateTransformer.m in Sources */,
 				375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */,
 				375E97DC1AB0A17A001BAB5E /* AppDelegate.m in Sources */,
 				372354971AB0DA9200C827F2 /* Radar.m in Sources */,

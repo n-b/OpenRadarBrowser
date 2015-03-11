@@ -7,6 +7,8 @@
     IBOutlet UILabel *_productLabel;
     IBOutlet UILabel *_productVersionLabel;
     IBOutlet UITextView *_textView;
+    IBOutlet UILabel *_originatedDateLabel;
+    IBOutlet UILabel *_resolvedDateLabel;
 }
 
 - (void)setRadar:(Radar*)radar
@@ -26,6 +28,11 @@
         _productLabel.text = self.radar.product;
         _productVersionLabel.text = self.radar.productVersion;
         _textView.text = self.radar.text;
+        NSDateFormatter * dateFormatter = [NSDateFormatter new];
+        dateFormatter.calendar = NSCalendar.currentCalendar;
+        dateFormatter.dateStyle = NSDateFormatterShortStyle;
+        _originatedDateLabel.text = [dateFormatter stringFromDate:self.radar.originated];
+        _resolvedDateLabel.text = [dateFormatter stringFromDate:self.radar.resolved];
     }
 }
 
