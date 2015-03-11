@@ -15,18 +15,7 @@
 		375E97E81AB0A17A001BAB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E97E61AB0A17A001BAB5E /* Main.storyboard */; };
 		375E97EA1AB0A17A001BAB5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375E97E91AB0A17A001BAB5E /* Images.xcassets */; };
 		375E97ED1AB0A17A001BAB5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375E97EB1AB0A17A001BAB5E /* LaunchScreen.xib */; };
-		375E97F91AB0A17A001BAB5E /* OpenRadarBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97F81AB0A17A001BAB5E /* OpenRadarBrowserTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		375E97F31AB0A17A001BAB5E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 375E97CB1AB0A17A001BAB5E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 375E97D21AB0A17A001BAB5E;
-			remoteInfo = OpenRadarBrowser;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		375E97D31AB0A17A001BAB5E /* OpenRadarBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenRadarBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,20 +31,10 @@
 		375E97E71AB0A17A001BAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375E97E91AB0A17A001BAB5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		375E97EC1AB0A17A001BAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		375E97F21AB0A17A001BAB5E /* OpenRadarBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenRadarBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		375E97F71AB0A17A001BAB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		375E97F81AB0A17A001BAB5E /* OpenRadarBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenRadarBrowserTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		375E97D01AB0A17A001BAB5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		375E97EF1AB0A17A001BAB5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				375E97D51AB0A17A001BAB5E /* OpenRadarBrowser */,
-				375E97F51AB0A17A001BAB5E /* OpenRadarBrowserTests */,
 				375E97D41AB0A17A001BAB5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				375E97D31AB0A17A001BAB5E /* OpenRadarBrowser.app */,
-				375E97F21AB0A17A001BAB5E /* OpenRadarBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +87,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		375E97F51AB0A17A001BAB5E /* OpenRadarBrowserTests */ = {
-			isa = PBXGroup;
-			children = (
-				375E97F81AB0A17A001BAB5E /* OpenRadarBrowserTests.m */,
-				375E97F61AB0A17A001BAB5E /* Supporting Files */,
-			);
-			path = OpenRadarBrowserTests;
-			sourceTree = "<group>";
-		};
-		375E97F61AB0A17A001BAB5E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				375E97F71AB0A17A001BAB5E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,24 +107,6 @@
 			productReference = 375E97D31AB0A17A001BAB5E /* OpenRadarBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		375E97F11AB0A17A001BAB5E /* OpenRadarBrowserTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 375E97FF1AB0A17A001BAB5E /* Build configuration list for PBXNativeTarget "OpenRadarBrowserTests" */;
-			buildPhases = (
-				375E97EE1AB0A17A001BAB5E /* Sources */,
-				375E97EF1AB0A17A001BAB5E /* Frameworks */,
-				375E97F01AB0A17A001BAB5E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				375E97F41AB0A17A001BAB5E /* PBXTargetDependency */,
-			);
-			name = OpenRadarBrowserTests;
-			productName = OpenRadarBrowserTests;
-			productReference = 375E97F21AB0A17A001BAB5E /* OpenRadarBrowserTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -176,10 +118,6 @@
 				TargetAttributes = {
 					375E97D21AB0A17A001BAB5E = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					375E97F11AB0A17A001BAB5E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 375E97D21AB0A17A001BAB5E;
 					};
 				};
 			};
@@ -197,7 +135,6 @@
 			projectRoot = "";
 			targets = (
 				375E97D21AB0A17A001BAB5E /* OpenRadarBrowser */,
-				375E97F11AB0A17A001BAB5E /* OpenRadarBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,13 +147,6 @@
 				375E97E81AB0A17A001BAB5E /* Main.storyboard in Resources */,
 				375E97ED1AB0A17A001BAB5E /* LaunchScreen.xib in Resources */,
 				375E97EA1AB0A17A001BAB5E /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		375E97F01AB0A17A001BAB5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,23 +165,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		375E97EE1AB0A17A001BAB5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				375E97F91AB0A17A001BAB5E /* OpenRadarBrowserTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		375E97F41AB0A17A001BAB5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 375E97D21AB0A17A001BAB5E /* OpenRadarBrowser */;
-			targetProxy = 375E97F31AB0A17A001BAB5E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		375E97E61AB0A17A001BAB5E /* Main.storyboard */ = {
@@ -369,40 +283,6 @@
 			};
 			name = Release;
 		};
-		375E98001AB0A17A001BAB5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OpenRadarBrowserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenRadarBrowser.app/OpenRadarBrowser";
-			};
-			name = Debug;
-		};
-		375E98011AB0A17A001BAB5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OpenRadarBrowserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenRadarBrowser.app/OpenRadarBrowser";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,14 +302,7 @@
 				375E97FE1AB0A17A001BAB5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		375E97FF1AB0A17A001BAB5E /* Build configuration list for PBXNativeTarget "OpenRadarBrowserTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				375E98001AB0A17A001BAB5E /* Debug */,
-				375E98011AB0A17A001BAB5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
