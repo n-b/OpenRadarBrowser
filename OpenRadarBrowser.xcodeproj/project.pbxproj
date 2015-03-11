@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		372354971AB0DA9200C827F2 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 372354961AB0DA9200C827F2 /* Radar.m */; };
+		372354A81AB0E01D00C827F2 /* libKVCMapping-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 372354A31AB0E01400C827F2 /* libKVCMapping-ios.a */; };
 		375E97D91AB0A17A001BAB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97D81AB0A17A001BAB5E /* main.m */; };
 		375E97DC1AB0A17A001BAB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DB1AB0A17A001BAB5E /* AppDelegate.m */; };
 		375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DD1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld */; };
@@ -16,11 +17,37 @@
 		375E97E81AB0A17A001BAB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E97E61AB0A17A001BAB5E /* Main.storyboard */; };
 		375E97EA1AB0A17A001BAB5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375E97E91AB0A17A001BAB5E /* Images.xcassets */; };
 		375E97ED1AB0A17A001BAB5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375E97EB1AB0A17A001BAB5E /* LaunchScreen.xib */; };
+		375E981C1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E981B1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372354A21AB0E01400C827F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3723549C1AB0E01400C827F2 /* KVCMapping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37A80DEE150B8CE800B9B6E1;
+			remoteInfo = "KVCMapping-ios";
+		};
+		372354A41AB0E01400C827F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3723549C1AB0E01400C827F2 /* KVCMapping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37235E741662BCCB00F33BF1;
+			remoteInfo = "KVCMapping-osx";
+		};
+		372354A61AB0E01400C827F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3723549C1AB0E01400C827F2 /* KVCMapping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 373EE11D1982CE5100062CD9;
+			remoteInfo = KVCMappingTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		372354951AB0DA9200C827F2 /* Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
 		372354961AB0DA9200C827F2 /* Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
+		3723549C1AB0E01400C827F2 /* KVCMapping.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KVCMapping.xcodeproj; path = kvcmapping/KVCMapping.xcodeproj; sourceTree = "<group>"; };
 		375E97D31AB0A17A001BAB5E /* OpenRadarBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenRadarBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375E97D71AB0A17A001BAB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		375E97D81AB0A17A001BAB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,6 +61,8 @@
 		375E97E71AB0A17A001BAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375E97E91AB0A17A001BAB5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		375E97EC1AB0A17A001BAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		375E981A1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+OpenRadar.h"; sourceTree = "<group>"; };
+		375E981B1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+OpenRadar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,16 +70,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372354A81AB0E01D00C827F2 /* libKVCMapping-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3723549D1AB0E01400C827F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372354A31AB0E01400C827F2 /* libKVCMapping-ios.a */,
+				372354A51AB0E01400C827F2 /* libKVCMapping-osx.a */,
+				372354A71AB0E01400C827F2 /* KVCMappingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		375E97CA1AB0A17A001BAB5E = {
 			isa = PBXGroup;
 			children = (
 				375E97D51AB0A17A001BAB5E /* OpenRadarBrowser */,
+				3723549C1AB0E01400C827F2 /* KVCMapping.xcodeproj */,
 				375E97D41AB0A17A001BAB5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +111,8 @@
 				375E97DB1AB0A17A001BAB5E /* AppDelegate.m */,
 				372354951AB0DA9200C827F2 /* Radar.h */,
 				372354961AB0DA9200C827F2 /* Radar.m */,
+				375E981A1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.h */,
+				375E981B1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.m */,
 				375E97E01AB0A17A001BAB5E /* MasterVC.h */,
 				375E97E11AB0A17A001BAB5E /* MasterVC.m */,
 				375E97E31AB0A17A001BAB5E /* DetailVC.h */,
@@ -137,12 +180,42 @@
 			mainGroup = 375E97CA1AB0A17A001BAB5E;
 			productRefGroup = 375E97D41AB0A17A001BAB5E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3723549D1AB0E01400C827F2 /* Products */;
+					ProjectRef = 3723549C1AB0E01400C827F2 /* KVCMapping.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				375E97D21AB0A17A001BAB5E /* OpenRadarBrowser */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		372354A31AB0E01400C827F2 /* libKVCMapping-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKVCMapping-ios.a";
+			remoteRef = 372354A21AB0E01400C827F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		372354A51AB0E01400C827F2 /* libKVCMapping-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKVCMapping-osx.a";
+			remoteRef = 372354A41AB0E01400C827F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		372354A71AB0E01400C827F2 /* KVCMappingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KVCMappingTests.xctest;
+			remoteRef = 372354A61AB0E01400C827F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		375E97D11AB0A17A001BAB5E /* Resources */ = {
@@ -162,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375E981C1AB0A475001BAB5E /* NSManagedObjectContext+OpenRadar.m in Sources */,
 				375E97E51AB0A17A001BAB5E /* DetailVC.m in Sources */,
 				375E97E21AB0A17A001BAB5E /* MasterVC.m in Sources */,
 				375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */,
@@ -275,7 +349,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpenRadarBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = kvcmapping;
 			};
 			name = Debug;
 		};
@@ -285,7 +361,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OpenRadarBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = kvcmapping;
 			};
 			name = Release;
 		};

@@ -1,0 +1,3 @@
+[submodule "kvcmapping"]
+	path = kvcmapping
+	url = git@scm.capitainetrain.com:ios/kvcmapping.git
