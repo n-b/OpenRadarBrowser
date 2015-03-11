@@ -11,8 +11,8 @@
 		375E97D91AB0A17A001BAB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97D81AB0A17A001BAB5E /* main.m */; };
 		375E97DC1AB0A17A001BAB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DB1AB0A17A001BAB5E /* AppDelegate.m */; };
 		375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DD1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld */; };
-		375E97E21AB0A17A001BAB5E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97E11AB0A17A001BAB5E /* MasterViewController.m */; };
-		375E97E51AB0A17A001BAB5E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97E41AB0A17A001BAB5E /* DetailViewController.m */; };
+		375E97E21AB0A17A001BAB5E /* MasterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97E11AB0A17A001BAB5E /* MasterVC.m */; };
+		375E97E51AB0A17A001BAB5E /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97E41AB0A17A001BAB5E /* DetailVC.m */; };
 		375E97E81AB0A17A001BAB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375E97E61AB0A17A001BAB5E /* Main.storyboard */; };
 		375E97EA1AB0A17A001BAB5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375E97E91AB0A17A001BAB5E /* Images.xcassets */; };
 		375E97ED1AB0A17A001BAB5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375E97EB1AB0A17A001BAB5E /* LaunchScreen.xib */; };
@@ -27,10 +27,10 @@
 		375E97DA1AB0A17A001BAB5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		375E97DB1AB0A17A001BAB5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		375E97DE1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenRadarBrowser.xcdatamodel; sourceTree = "<group>"; };
-		375E97E01AB0A17A001BAB5E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		375E97E11AB0A17A001BAB5E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		375E97E31AB0A17A001BAB5E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		375E97E41AB0A17A001BAB5E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		375E97E01AB0A17A001BAB5E /* MasterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterVC.h; sourceTree = "<group>"; };
+		375E97E11AB0A17A001BAB5E /* MasterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterVC.m; sourceTree = "<group>"; };
+		375E97E31AB0A17A001BAB5E /* DetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		375E97E41AB0A17A001BAB5E /* DetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
 		375E97E71AB0A17A001BAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375E97E91AB0A17A001BAB5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		375E97EC1AB0A17A001BAB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -68,12 +68,12 @@
 			children = (
 				375E97DA1AB0A17A001BAB5E /* AppDelegate.h */,
 				375E97DB1AB0A17A001BAB5E /* AppDelegate.m */,
-				375E97E01AB0A17A001BAB5E /* MasterViewController.h */,
-				375E97E11AB0A17A001BAB5E /* MasterViewController.m */,
-				375E97E31AB0A17A001BAB5E /* DetailViewController.h */,
-				375E97E41AB0A17A001BAB5E /* DetailViewController.m */,
 				372354951AB0DA9200C827F2 /* Radar.h */,
 				372354961AB0DA9200C827F2 /* Radar.m */,
+				375E97E01AB0A17A001BAB5E /* MasterVC.h */,
+				375E97E11AB0A17A001BAB5E /* MasterVC.m */,
+				375E97E31AB0A17A001BAB5E /* DetailVC.h */,
+				375E97E41AB0A17A001BAB5E /* DetailVC.m */,
 				375E97E61AB0A17A001BAB5E /* Main.storyboard */,
 				375E97E91AB0A17A001BAB5E /* Images.xcassets */,
 				375E97EB1AB0A17A001BAB5E /* LaunchScreen.xib */,
@@ -162,8 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375E97E51AB0A17A001BAB5E /* DetailViewController.m in Sources */,
-				375E97E21AB0A17A001BAB5E /* MasterViewController.m in Sources */,
+				375E97E51AB0A17A001BAB5E /* DetailVC.m in Sources */,
+				375E97E21AB0A17A001BAB5E /* MasterVC.m in Sources */,
 				375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */,
 				375E97DC1AB0A17A001BAB5E /* AppDelegate.m in Sources */,
 				372354971AB0DA9200C827F2 /* Radar.m in Sources */,
