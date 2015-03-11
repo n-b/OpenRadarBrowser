@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372354971AB0DA9200C827F2 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = 372354961AB0DA9200C827F2 /* Radar.m */; };
 		375E97D91AB0A17A001BAB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97D81AB0A17A001BAB5E /* main.m */; };
 		375E97DC1AB0A17A001BAB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DB1AB0A17A001BAB5E /* AppDelegate.m */; };
 		375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 375E97DD1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372354951AB0DA9200C827F2 /* Radar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
+		372354961AB0DA9200C827F2 /* Radar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
 		375E97D31AB0A17A001BAB5E /* OpenRadarBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenRadarBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375E97D71AB0A17A001BAB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		375E97D81AB0A17A001BAB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				375E97E11AB0A17A001BAB5E /* MasterViewController.m */,
 				375E97E31AB0A17A001BAB5E /* DetailViewController.h */,
 				375E97E41AB0A17A001BAB5E /* DetailViewController.m */,
+				372354951AB0DA9200C827F2 /* Radar.h */,
+				372354961AB0DA9200C827F2 /* Radar.m */,
 				375E97E61AB0A17A001BAB5E /* Main.storyboard */,
 				375E97E91AB0A17A001BAB5E /* Images.xcassets */,
 				375E97EB1AB0A17A001BAB5E /* LaunchScreen.xib */,
@@ -161,6 +166,7 @@
 				375E97E21AB0A17A001BAB5E /* MasterViewController.m in Sources */,
 				375E97DF1AB0A17A001BAB5E /* OpenRadarBrowser.xcdatamodeld in Sources */,
 				375E97DC1AB0A17A001BAB5E /* AppDelegate.m in Sources */,
+				372354971AB0DA9200C827F2 /* Radar.m in Sources */,
 				375E97D91AB0A17A001BAB5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
